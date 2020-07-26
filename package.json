@@ -1,0 +1,38 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "My good Nuxt.js project",
+  "author": "hitcracker317",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "generate": "nuxt-ts generate",
+    "start": "nuxt-ts start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^1.0.0",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.0.0",
+    "nuxt-property-decorator": "^2.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@nuxt/typescript-build": "^2.0.0",
+    "@nuxtjs/eslint-config-typescript": "^2.0.0",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/vue": "^5.3.19",
+    "babel-loader": "^8.1.0",
+    "babel-preset-vue": "^2.0.2",
+    "fork-ts-checker-webpack-plugin": "^5.0.11",
+    "node-sass": "^4.14.1",
+    "path": "^0.12.7",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^9.0.2"
+  }
+}
